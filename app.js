@@ -9,12 +9,9 @@ const showProducts = (products) => {
   const details = document.getElementById("display-card");
   products.forEach((product) => {
     const { title, price, description, category, image, rating } = product;
-
-
     const div = document.createElement("div");
     div.classList.add("col");
     div.innerHTML = `
-    
 
     <div class="card w-72 bg-base-100 shadow-xl mx-auto flex-col">
     <figure class="">
