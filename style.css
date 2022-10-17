@@ -4,8 +4,7 @@ header {
 
 .my-card {
   position: fixed;
-  right: 20px;
-  top: 145px;
+  /* right: 20px; */
+  top: 0px;
   background-color: lightyellow;
-  border-radius: 10px;
 }
